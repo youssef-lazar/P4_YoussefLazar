@@ -295,20 +295,13 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    /*font-size: 25px;*/
     font-weight: normal;
-    /*font-weight: 600;*/
     line-height: 44px;
 }
 
 .navbar-brand img {
-    /*max-height: 200px;*/
     margin: 0 5px 0 0;
     display: inline;
-}
-
-.navbar-brand img[src$=svg] {
-    /*min-width: 100px;*/
 }
 
 .nav-center .navbar-brand img {
@@ -820,11 +813,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.jpeg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.jpeg");
 }
 
 @media (max-width: 1024px) {
@@ -964,7 +957,6 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        /*max-height: 40px;*/
         width: auto;
     }
     .nav-invert .navbar-header {
